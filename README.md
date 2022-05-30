@@ -1,6 +1,6 @@
 # Tic- Tac -Toe
 
-This is simple game created using react.
+This is simple game created using react JS.
 
 ### Credits.
 
