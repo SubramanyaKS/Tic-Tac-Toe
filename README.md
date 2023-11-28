@@ -34,13 +34,13 @@ npm install
 3.  Run application using command
 
 ```
-npm start
+npm run dev
 ```
 
 5. Automatically open the website in localhost
 
 ```
-http://localhost/3000
+http://localhost/5173
 ```
 ---
 
