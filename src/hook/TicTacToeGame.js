@@ -7,31 +7,6 @@ const useTicTacToeGame = (isMinVersion) => {
   const [winner, setWinner] = useState(null);
   const [isWinnerPopupOpen, setIsWinnerPopupOpen] = useState(false);
 
-  // const calculateWinner = (currentBoard) => {
-  //   const lines = [
-  //     [0, 1, 2],
-  //     [3, 4, 5],
-  //     [6, 7, 8],
-  //     [0, 3, 6],
-  //     [1, 4, 7],
-  //     [2, 5, 8],
-  //     [0, 4, 8],
-  //     [2, 4, 6],
-  //   ];
-
-  //   for (let i = 0; i < lines.length; i++) {
-  //     const [a, b, c] = lines[i];
-  //     if (currentBoard[a] && currentBoard[a] === currentBoard[b] && currentBoard[a] === currentBoard[c]) {
-  //       return currentBoard[a];
-  //     }
-  //   }
-
-  //   if (currentBoard.every((square) => square !== null)) {
-  //     return 'Draw';
-  //   }
-
-  //   return null;
-  // };
 
   useEffect(() => {
     const result = calculateWinner(board);
