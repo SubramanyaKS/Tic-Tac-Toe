@@ -1,6 +1,6 @@
-# Tic- Tac -Toe
+# Tic-Tac-Toe
 
-This is simple game created using react JS.
+A simple Tic-Tac-Toe game using react JS contains both player vs player and player vs computer.
 
 
 ---
@@ -48,23 +48,7 @@ http://localhost/5173
 
 ### Contribution
 
-if you want to contribute to this project. 
-
-1. Fork the repository
-2. Create a new branch (any name except main and master)
-```
-git checkout -b xyz
-```
-3. Make changes and commit your changes.
-```
-git commit -m "Changes in xyz"
-```
-4. Push the changes to new branch.
-```
-git push origin xyz
-```
-5. Open a pull request
-
+We welcome contributions! If you'd like to contribute to Weather-app, please follow our [Contribution Guidelines](https://github.com/SubramanyaKS/Tic-Tac-Toe/blob/main/CONTRIBUTING.md).
 
 ---
 ### Author
