@@ -2,6 +2,8 @@
 
 A simple Tic-Tac-Toe game using react JS contains both player vs player and player vs computer.
 
+Tic-tac-toe or Xs and Os is a paper-and-pencil game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner. It is a solved game, with a forced draw assuming best play from both players. [source](https://en.m.wikipedia.org/wiki/Tic-tac-toe)
+
 
 ---
 
@@ -60,5 +62,6 @@ We welcome contributions! If you'd like to contribute to Weather-app, please fol
 ### Credits.
 
 * GeeksForGeeks
+* Wikipedia
 * React
 * VS Code
