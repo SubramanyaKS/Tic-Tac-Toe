@@ -50,7 +50,7 @@ http://localhost/5173
 
 ### Contribution
 
-We welcome contributions! If you'd like to contribute to Weather-app, please follow our [Contribution Guidelines](https://github.com/SubramanyaKS/Tic-Tac-Toe/blob/main/CONTRIBUTING.md).
+We welcome contributions! If you'd like to contribute to Tic-Tac-Toe, please follow our [Contribution Guidelines](https://github.com/SubramanyaKS/Tic-Tac-Toe/blob/main/CONTRIBUTING.md).
 
 ---
 ### Author
@@ -65,3 +65,7 @@ We welcome contributions! If you'd like to contribute to Weather-app, please fol
 * Wikipedia
 * React
 * VS Code
+
+If you like the project 🌟 the repository.
+
+Thank you with ❤ Subramanya KS
