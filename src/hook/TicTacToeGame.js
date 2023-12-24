@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { calculateWinner } from '../utils/helper';
+import { calculateWinner, winnerIndex } from '../utils/helper';
 
 const useTicTacToeGame = (isMinVersion) => {
   const [turn, setTurn] = useState(true);
@@ -10,7 +10,7 @@ const useTicTacToeGame = (isMinVersion) => {
 
   useEffect(() => {
     const result = calculateWinner(board);
-    console.log("Result",result)
+    // console.log("Result",result)
 
     if (result) {
       setWinner(result);
@@ -18,7 +18,15 @@ const useTicTacToeGame = (isMinVersion) => {
         setIsWinnerPopupOpen(true);
       }
       if (!isWinnerPopupOpen && result!=null ) {
+        // const arr = winnerIndex();
+        // console.log("Arr",arr)
+        // arr.forEach(element => {
+        //   document.getElementById(element).style.backgroundColor = '#3498db';
+        // });
         setIsWinnerPopupOpen(true);
+        // arr.forEach(element => {
+        //   document.getElementById(element).style.backgroundColor = 'transparent';
+        // });
       }
     } else if (!turn && isMinVersion) {
       makeAIMove();
@@ -74,6 +82,7 @@ const useTicTacToeGame = (isMinVersion) => {
 
   const minimax = (currentBoard, depth, isMaximizing) => {
     const result = calculateWinner(currentBoard);
+
     if (result === 'X') {
       return -1;
     } else if (result === 'O') {
@@ -109,7 +118,8 @@ const useTicTacToeGame = (isMinVersion) => {
 
   const getStatus = () => {
     if (winner && !isMinVersion && !isWinnerPopupOpen) {
-      setIsWinnerPopupOpen(true);
+      const arr = winnerIndex();
+      console.log("Arr",arr)
     }
     if (winner) {
       return `Winner: ${winner}`;
@@ -129,6 +139,11 @@ const useTicTacToeGame = (isMinVersion) => {
 
   
   const handleClick = (index) => {
+    // const arr = winnerIndex();
+    //     console.log("Arr",arr)
+    //     arr.forEach(element => {
+    //       document.getElementById(element).style.backgroundColor = '#213547';
+    //     });
     if (board[index] || winner) {
       return;
     }
