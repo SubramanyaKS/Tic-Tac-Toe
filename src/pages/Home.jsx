@@ -9,7 +9,6 @@ const Home = () => {
       <div className="app">
         <Main />
       </div>
-      <Footer />
     </div>
   );
 };
